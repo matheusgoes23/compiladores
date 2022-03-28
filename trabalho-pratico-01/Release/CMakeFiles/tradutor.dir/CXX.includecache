@@ -6,24 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/error.cpp
-error.h
-/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/error.h
-iostream
--
-
 /home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/error.h
 string
--
-
-/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/lexer.cpp
-lexer.h
-/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/lexer.h
-math.h
-/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/math.h
-fstream
--
-sstream
 -
 
 /home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/lexer.h
@@ -34,25 +18,9 @@ string
 sstream
 -
 
-/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/parser.cpp
-parser.h
-/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/parser.h
-error.h
-/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/error.h
-iostream
--
-sstream
--
-cctype
--
-
 /home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/parser.h
 lexer.h
 /home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/lexer.h
-symtable.h
-/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/symtable.h
-
-/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/symtable.cpp
 symtable.h
 /home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/symtable.h
 

@@ -11,7 +11,7 @@ ifstream fin;
 // Programa pode receber nomes de arquivos
 int main(int argc, char **argv)
 {
-    if (argc == 2)
+    if (argc == 2 && strcmp(argv[1], "--help"))
     {
         fin.open(argv[1]);
 
@@ -20,10 +20,6 @@ int main(int argc, char **argv)
             cout << "Falha na abertura do arquivo \'" << argv[1] << "\'.\n";
             cout << "Verifique se o nome está correto, ou se é protegido para leitura.\n";
             exit(EXIT_FAILURE);
-        }
-        else if (argv[1] == "--help")
-        {
-            cout << "Intrucoes: Para ser escritas...";
         }
 
         Parser tradutor;
@@ -38,5 +34,12 @@ int main(int argc, char **argv)
 
         cout << endl;
         fin.close();
+    }
+    else
+    {
+        cout
+            << "Instrucoes: \n\tuso: ./tradutor [arquivo.math]\t\t"
+            << "ler o arquivo contendo expressoes aritmeticas em "
+            << "notacao infixida e traduz para notacao pos-fixada.\n";
     }
 }

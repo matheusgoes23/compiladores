@@ -18,7 +18,7 @@ bool SymTable::Insert(string s, Symbol symb)
 }
 
 // Busca um símbolo na tabela atual
-// se não encontrado, busca nas tabelas dos escopos envolventes
+// E se não encontrado, busca nas tabelas dos escopos envolventes
 Symbol *SymTable::Find(string s)
 {
     for (SymTable *st = this; st != nullptr; st = st->prev)
