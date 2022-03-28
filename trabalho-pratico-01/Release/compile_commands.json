@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/Release",
+  "command": "/usr/bin/c++    -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/tradutor.dir/lexer.cpp.o -c \"/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/lexer.cpp\"",
+  "file": "/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/lexer.cpp"
+},
+{
+  "directory": "/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/Release",
+  "command": "/usr/bin/c++    -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/tradutor.dir/parser.cpp.o -c \"/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/parser.cpp\"",
+  "file": "/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/parser.cpp"
+},
+{
+  "directory": "/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/Release",
+  "command": "/usr/bin/c++    -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/tradutor.dir/symtable.cpp.o -c \"/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/symtable.cpp\"",
+  "file": "/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/symtable.cpp"
+},
+{
+  "directory": "/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/Release",
+  "command": "/usr/bin/c++    -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/tradutor.dir/error.cpp.o -c \"/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/error.cpp\"",
+  "file": "/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/error.cpp"
+},
+{
+  "directory": "/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/Release",
+  "command": "/usr/bin/c++    -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/tradutor.dir/tradutor.cpp.o -c \"/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/tradutor.cpp\"",
+  "file": "/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/tradutor.cpp"
+}
+]

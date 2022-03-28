@@ -27,6 +27,9 @@ void Parser::Block()
     symtable = new SymTable(symtable);
     // ------------------------------------
 
+    Decls();
+    Stmts();
+
     if (!Match('}'))
         throw SyntaxError(scanner.Lineno(), "\'}\' esperado");
 
