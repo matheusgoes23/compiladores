@@ -1,0 +1,13 @@
+// arquivo fonte
+math 
+{
+	int x; 
+	int val; 
+	x + val; 
+	2+(3-5); 
+	{
+		float x; /* outro x */
+		2 - 3.5 + x;
+	} 
+	x; 
+}

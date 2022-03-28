@@ -1,0 +1,3 @@
+/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/Debug/CMakeFiles/rebuild_cache.dir
+/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/Debug/CMakeFiles/edit_cache.dir
+/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/Debug/CMakeFiles/tradutor.dir
