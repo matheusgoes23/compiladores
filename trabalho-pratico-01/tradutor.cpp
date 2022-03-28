@@ -40,6 +40,6 @@ int main(int argc, char **argv)
         cout
             << "Instrucoes: \n\tuso: ./tradutor [arquivo.math]\t\t"
             << "ler o arquivo contendo expressoes aritmeticas em "
-            << "notacao infixida e traduz para notacao pos-fixada.\n";
+            << "notacao infixada e traduz para notacao pos-fixada.\n";
     }
 }

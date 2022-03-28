@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/error.cpp
+error.h
+/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/error.h
+iostream
+-
+
 /home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/error.h
 string
 -
@@ -36,9 +42,25 @@ lexer.h
 symtable.h
 /home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/symtable.h
 
+/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/symtable.cpp
+symtable.h
+/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/symtable.h
+
 /home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/symtable.h
 unordered_map
 -
 string
 -
+
+/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/tradutor.cpp
+iostream
+-
+fstream
+-
+cstring
+-
+parser.h
+/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/parser.h
+error.h
+/home/matheus/Documentos/2021.2/Compiladores/Unidade I/TP/compiladores/trabalho-pratico-01/error.h
 

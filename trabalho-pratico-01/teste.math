@@ -1,5 +1,5 @@
 // arquivo fonte
-math 
+math
 {
 	int x; 
 	int val; 

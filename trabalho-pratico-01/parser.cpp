@@ -144,6 +144,12 @@ void Parser::Expr()
             Term();
             cout << '-';
         }
+        // Encontrado fim da expressão aritmética
+        else if (lookahead->tag == ';')
+        {
+            cout << endl;
+            return;
+        }
         // add -> ϵ
         else
             return;
