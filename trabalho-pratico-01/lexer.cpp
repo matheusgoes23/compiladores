@@ -92,7 +92,7 @@ Token *Lexer::Scan()
 		float result = 0;
 		do
 		{
-			// converte caractere 'n' para o dígito numérico n
+			// Converte caractere 'n' para o dígito numérico n
 			int n = peek - '0';
 			v = 10 * v + n;
 			peek = fin.get();
@@ -102,13 +102,15 @@ Token *Lexer::Scan()
 		if (peek == '.')
 		{
 			peek = fin.get();
-			do
+
+			while (isdigit(peek))
 			{
 				int n = peek - '0';
 				v_float = 10 * v_float + n;
-				peek = fin.get();
 				exponent++;
-			} while (isdigit(peek));
+				
+				peek = fin.get();
+			}
 
 			result = v_float / pow(10, exponent);
 			result = result + v;

@@ -6,7 +6,7 @@ using std::stringstream;
 using std::unordered_map;
 
 // Cada token possui uma tag (número a partir de 256)
-// a tag de caracteres individuais é seu código ASCII
+// A tag de caracteres individuais é seu código ASCII
 enum Tag
 {
     TYPE = 256,

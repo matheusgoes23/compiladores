@@ -37,6 +37,7 @@ int main(int argc, char **argv)
     }
     else
     {
+        // Instruções padrão de ajuda
         cout
             << "Instrucoes: \n\tuso: ./tradutor [arquivo.math]\t\t"
             << "ler o arquivo contendo expressoes aritmeticas em "
