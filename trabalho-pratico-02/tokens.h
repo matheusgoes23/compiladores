@@ -5,8 +5,7 @@ enum
     TAG_END,
     LINE_JUMP,
     TEXT,
-    INLINE_START,
-    INLINE_END,
-    INLINE_TEXT,
+    INLINE_BLOCK_START,
+    INLINE_BLOCK_END,
     SINGLE_TAG
 };

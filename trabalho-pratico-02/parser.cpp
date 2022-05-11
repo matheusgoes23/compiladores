@@ -5,7 +5,10 @@ using std::cout;
 
 void Parser::Start()
 {
-    int lines = 1, tag_format = 0, tags = 0, characters = 0;
+    int lines = 1;      // contador de linhas no arquivo
+    int tag_format = 0; // formatador de indentação de tags
+    int tags = 0;       // contador de pares de tags html
+    int characters = 0; // contador de caracteres do conteúdo exibido pela página
 
     // enquanto não atingir o fim da entrada
     while ((lookahead = scanner.yylex()) != 0)
@@ -13,10 +16,12 @@ void Parser::Start()
         // trata o token recebido do analisador léxico
         switch (lookahead)
         {
+        // reconhece o salto de linha
         case LINE_JUMP:
             lines++;
             break;
 
+        // reconhece uma tag de início <tag>
         case TAG_START:
             tags++;
 
@@ -29,6 +34,7 @@ void Parser::Start()
             tag_format++;
             break;
 
+        // reconhece uma tag de fim </tag>
         case TAG_END:
             tag_format--;
 
@@ -39,6 +45,7 @@ void Parser::Start()
             cout << "+--" << scanner.YYText() << "\n";
             break;
 
+        // reconhece uma tag que não reconhece um par início-fim
         case SINGLE_TAG:
             tags++;
 
@@ -49,6 +56,7 @@ void Parser::Start()
             cout << "+--" << scanner.YYText() << "\n";
             break;
 
+        // reconhece caracteres de conteúdo exibido pela página
         case TEXT:
             characters += scanner.YYLeng();
 
@@ -60,10 +68,11 @@ void Parser::Start()
                  << "Texto[" << scanner.YYLeng() << "]\n";
             break;
 
-        case INLINE_START:
+        // reconhece css inline-block dentro de style
+        case INLINE_BLOCK_START:
             while ((lookahead = scanner.yylex()) != 0)
             {
-                if (lookahead == INLINE_END)
+                if (lookahead == INLINE_BLOCK_END)
                 {
                     break;
                 }
