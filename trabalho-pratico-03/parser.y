@@ -19,7 +19,7 @@ string toString(float value);
 
 /* tabela de símbolos */
 unordered_map<string,double> variables;
-string input = "";	//guarda a entrada
+string storage = "";	//variavel de armazenamento
 %}
 
 %union {
@@ -51,8 +51,8 @@ math: math term
 
 term: ID '=' expr 						   { variables[$1] = $3; }
 	| IF '(' expr ')' ID '=' expr		   { if ($3 == 1) variables[$5] = $7; }
-	| IF '(' expr ')' PRINT '(' assign ')' { if ($3 == 1) cout << input << "\n"; input = ""; }
-	| PRINT '(' assign ')' 				   { cout << input << "\n"; input = ""; }
+	| IF '(' expr ')' PRINT '(' assign ')' { if ($3 == 1) cout << storage << "\n"; storage = ""; }
+	| PRINT '(' assign ')' 				   { cout << storage << "\n"; storage = ""; }
 	| expr								   { cout << $1 << "\n"; }
 	| '\n'
 	;
@@ -61,8 +61,8 @@ assign: text ',' assign
 	  | text
 	  ;
 
-text: TEXT					{ input.append(substr($1, 1, strlen($1) - 2)); }
-    | expr                  { input.append(toString($1));                  }
+text: TEXT					{ storage.append(substr($1, 1, strlen($1) - 2)); }
+    | expr                  { storage.append(toString($1));                  }
     ; 
 
 expr: expr '+' expr			{ $$ = $1 + $3; }
