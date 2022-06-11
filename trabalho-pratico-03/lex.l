@@ -12,7 +12,7 @@ digpont {digito}+"."
 
 numero  {pontdig}|{digpont}
 id		{letra_}({letra_}|{digito})*
-text    \"[a-zA-Z0-9=, ]*\"
+text    \"[a-zA-Z0-9=:,<>=!+\-*/ ]*\"
 
 %%
 
