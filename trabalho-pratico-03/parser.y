@@ -4,7 +4,6 @@
 #include <unordered_map>
 #include <cstring>
 #include <sstream>
-#include <cctype>
 #include <math.h>
 
 using namespace std;
